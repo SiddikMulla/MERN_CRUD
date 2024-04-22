@@ -1,0 +1,8 @@
+# Ignore Node modules
+/node_modules
+
+# Ignore log files
+/logs
+
+# Ignore cache directories
+.cache
