@@ -2,9 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import { Provider, provider } from 'react-redux';
+import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, compose } from 'redux';
-import thunk from 'redux-thunk';
+import { thunk } from 'redux-thunk'; // Importing 'thunk' and 'withExtraArgument'
+
 
 import reducers from './reducers';
 
