@@ -7,3 +7,6 @@
 
 # Ignore cache directories
 .cache
+
+#secrecy
+.env
